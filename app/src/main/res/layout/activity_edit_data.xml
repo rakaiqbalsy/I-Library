@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical">
+
+<EditText
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:hint="Nomor Film"
+    android:id="@+id/mId" />
+
+<EditText
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:hint="title"
+    android:id="@+id/mTitle"
+    />
+<EditText
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:hint="genre"
+    android:id="@+id/mGenre"
+    />
+<EditText
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:hint="year"
+    android:id="@+id/mYear"
+    />
+<Button
+    android:layout_marginTop="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Update Data"
+    android:layout_gravity="center"
+    android:textColor="#fff"
+    android:background="#908"
+    android:id="@+id/edit"
+    android:padding="10dp"/>
+
+</LinearLayout>

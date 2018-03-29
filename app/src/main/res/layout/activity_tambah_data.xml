@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="bso.android.simplemovieapps.activity.TambahDataActivity">
+
+    <EditText
+        android:id="@+id/mId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nomor Film" />
+
+    <EditText
+        android:id="@+id/mTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="title" />
+
+    <EditText
+        android:id="@+id/mGenre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="genre" />
+
+    <EditText
+        android:id="@+id/mYear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="year" />
+
+    <Button
+        android:id="@+id/inser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="#908"
+        android:padding="10dp"
+        android:text="Masukan Data"
+        android:textColor="#fff" />
+
+</LinearLayout>
